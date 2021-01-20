@@ -1,0 +1,15 @@
+body {
+  margin: 0; /*sets the margins for an element,*/
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;/*The main reason for using "system" fonts is performance. Fonts are typically one of the largest/heaviest resources loaded on a website. If we can use a font already available on the user’s machine, we can completely eliminate the need to fetch this resource, making load times noticeably faster.
+    The beauty of system fonts is that it matches what the current OS uses, so it can be a comfortable look. For reference - https://github.com/necolas/normalize.css/issues/665 */
+  -webkit-font-smoothing: antialiased; /*The font-smooth CSS property controls the application of anti-aliasing when fonts are rendered.WebKit implements a similar property, but with different values: -webkit-font-smoothing. It only works on Mac OS X/macOS.
+  antialiased - Smooth the font on the level of the pixel, as opposed to the subpixel. Switching from subpixel rendering to antialiasing for light text on dark backgrounds makes it look lighter.*/
+  -moz-osx-font-smoothing: grayscale;/*Firefox implements a similar property, but with different values: -moz-osx-font-smoothing. It only works on Mac OS X/macOS*/
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

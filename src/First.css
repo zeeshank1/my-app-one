@@ -1,0 +1,13 @@
+.First {
+    text-align: center;
+}
+
+.First-div {
+    background-color: darkturquoise;
+    min-height: 20vh;
+    align-items: center;
+    display: flex;
+    color: floralwhite;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+}
